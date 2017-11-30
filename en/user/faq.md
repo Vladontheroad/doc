@@ -1,5 +1,14 @@
 # Frequently Asked Questions
 
+## Where do I find the required information to configure my web browser extension ?
+You need 4 information:
+- the username used at sign up
+- your corresponding password
+- a client ID
+- a client secret
+
+The client ID and secret have to be manually generated from your Wallabag account, menu "API client management > Create a new client", fill the form (name is arbitrary AND mandatory), then "Create a new client".
+
 ## During the installation, I got the error `Error Output: sh: 1: @post-cmd: not found`
 
 It seems you have a problem with your `composer` installation. Try to
